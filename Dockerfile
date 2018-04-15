@@ -2,7 +2,7 @@ FROM debian:stretch
 ENV HOME /root
 
 RUN apt-get update && apt-get install -y \
-  ruby1.9.3 \
+  ruby \
   rubygems \
   gnupg \
   gnupg-agent \
