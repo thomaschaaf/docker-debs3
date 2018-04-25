@@ -8,7 +8,6 @@ RUN apt-get update && apt-get install -y \
   gnupg-agent \
   dpkg-sig \
   git \
-  devscripts \
   libxml2 \
   libxml2-dev \
   libxslt-dev
